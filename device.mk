@@ -263,6 +263,10 @@ PRODUCT_COPY_FILES += \
     
 # Soong
 PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
+
+# Thermal
+PRODUCT_PACKAGES += \
+    thermal.sdm660
     
 # Touchscreen
 PRODUCT_PACKAGES += \
