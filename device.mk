@@ -316,6 +316,10 @@ PRODUCT_COPY_FILES += \
 # Soong
 PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
+# Sqlite
+PRODUCT_PACKAGES += \
+    sqlite3
+
 # Telephony
 PRODUCT_PACKAGES += \
     qti-telephony-hidl-wrapper \
