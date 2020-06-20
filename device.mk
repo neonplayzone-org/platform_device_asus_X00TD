@@ -383,6 +383,14 @@ PRODUCT_PACKAGES += \
     libstdc++.vendor \
     vndk_package
     
+# WFD
+PRODUCT_PACKAGES += \
+    libmediaextractorservice \
+    libnl
+
+PRODUCT_BOOT_JARS += \
+    WfdCommon
+    
 # WiFi
 PRODUCT_PACKAGES += \
     hostapd \
