@@ -364,6 +364,10 @@ PRODUCT_PACKAGES += \
     IPACM_cfg.xml \
     libipanat \
     liboffloadhal
+    
+# TextClassifier
+PRODUCT_PACKAGES += \
+    textclassifier.bundle1
 
 # Thermal
 PRODUCT_PACKAGES += \
