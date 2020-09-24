@@ -132,7 +132,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
-    debug.stagefright.omx_default_rank.sw-audio=1 \
     debug.stagefright.omx_default_rank=0 \
     vendor.vidc.enc.disable.pq=true \
     vendor.vidc.dec.enable.downscalar=0
